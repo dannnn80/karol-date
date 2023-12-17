@@ -113,6 +113,7 @@ const App: React.FC = () => {
           </Alert>
         </Snackbar>
         <Typography
+          mt={4}
           sx={{ color: "#66001A", fontWeight: "bolder" }}
           variant="h4"
         >
@@ -125,7 +126,7 @@ const App: React.FC = () => {
           loop
           style={{
             display: "block",
-            maxWidth: "450px",
+            maxWidth: "350px",
             height: "auto",
             margin: "auto",
             marginTop: "30px",
