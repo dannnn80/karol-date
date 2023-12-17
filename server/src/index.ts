@@ -27,11 +27,11 @@ app.post("/api/send-email", async (req, res) => {
     if (!choice) {
       res.status(400).json({ message: "Choice is required" });
     }
-    const text = `Chealsea said ${choice}`;
+    const text = `Chelsea said ${choice}`;
     const msg = {
       to: "austin@starks-technology.com",
       from: "alert@starks-technology.com",
-      subject: "Chealsea said yes!",
+      subject: "Chelsea said yes!",
       text,
     };
     await sgMail.send(msg);

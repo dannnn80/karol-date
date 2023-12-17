@@ -1,7 +1,7 @@
 {
   "name": "chelsea-date",
   "version": "1.0.0",
-  "description": "I'm asking Chealsea to go on a date with me",
+  "description": "I'm asking Chelsea to go on a date with me",
   "main": "server/dist/app.js",
   "scripts": {
     "install-client-and-build": "cd client && npm install && npm run build",

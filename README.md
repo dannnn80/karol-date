@@ -1,6 +1,6 @@
-# Chealsea Date
+# Chelsea Date
 
-I want to ask Chealsea out on a date. Her favorite color is bergundy and her favorite animals are sloths.
+I want to ask Chelsea out on a date. Her favorite color is bergundy and her favorite animals are sloths.
 
 I used DALL-E to generate the initial images and Runway ML to convert it to a video.
 
