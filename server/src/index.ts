@@ -12,6 +12,11 @@ if (!process.env.SENDGRID_API_KEY) {
   console.error("Please set the SENDGRID_API_KEY environment variable");
   process.exit(1);
 }
+if (!process.env.SENDGRID_EMAIL) {
+  console.error("Please set the SENDGRID_EMAIL environment variable");
+  process.exit(1);
+}
+
 // Configure SendGrid
 sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
 
@@ -27,10 +32,11 @@ app.post("/api/send-email", async (req, res) => {
     if (!choice) {
       res.status(400).json({ message: "Choice is required" });
     }
+
     // const text = `Chelsea said ${choice}`;
     // const msg = {
-    //   to: "austin@starks-technology.com",
-    //   from: "alert@starks-technology.com",
+    //   to: process.env.SENDGRID_EMAIL as string,
+    //   from: process.env.SENDGRID_EMAIL as string,
     //   subject: "Chelsea said yes!",
     //   text,
     // };
