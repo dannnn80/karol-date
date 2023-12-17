@@ -7,7 +7,7 @@
     "install-client-and-build": "cd client && npm install && npm run build",
     "install-server": "cd server && npm install",
     "build": "npm run install-client-and-build && npm run install-server",
-    "start": "cd server && ./node_modules/.bin/tsc && node dist/app.js --max-old-space-size=4096"
+    "start": "cd server && ./node_modules/.bin/tsc && node dist/index.js --max-old-space-size=4096"
   },
   "author": "Austin Starks",
   "license": "ISC"
