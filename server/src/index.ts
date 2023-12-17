@@ -33,14 +33,14 @@ app.post("/api/send-email", async (req, res) => {
       res.status(400).json({ message: "Choice is required" });
     }
 
-    // const text = `Chelsea said ${choice}`;
-    // const msg = {
-    //   to: process.env.SENDGRID_EMAIL as string,
-    //   from: process.env.SENDGRID_EMAIL as string,
-    //   subject: "Chelsea said yes!",
-    //   text,
-    // };
-    // await sgMail.send(msg);
+    const text = `Chelsea said ${choice}`;
+    const msg = {
+      to: process.env.SENDGRID_EMAIL as string,
+      from: process.env.SENDGRID_EMAIL as string,
+      subject: "Chelsea said yes!",
+      text,
+    };
+    await sgMail.send(msg);
     res.status(200).json({ message: "Email sent successfully" });
   } catch (error) {
     console.error(error);

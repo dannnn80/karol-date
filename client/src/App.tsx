@@ -264,12 +264,9 @@ const App: React.FC = () => {
               <Button
                 variant="contained"
                 sx={{ backgroundColor: "#35000E" }}
-                onClick={() => {
-                  alert(
-                    "Error. An error occured. Please try clicking yes to see if it resolves it"
-                  );
-                }}
+                onClick={handleNoHover}
                 onMouseMove={handleNoHover}
+                onMouseEnter={handleNoHover}
                 style={
                   buttonPosition
                     ? {
