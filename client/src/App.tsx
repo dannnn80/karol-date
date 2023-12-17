@@ -4,21 +4,10 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-const containerStyle = {
-  backgroundImage:
-    "linear-gradient(to right bottom, #800020, #922d3c, #a34c58, #b16874, #be8590, #bb848f, #b9848e, #b6838d, #a4656f, #914752, #7c2935, #66001a)",
-  height: "100vh",
-  width: "100vw",
-  color: "white",
-  textAlign: "center",
-  paddingTop: "60px",
-};
-
 const typographyStyle = {
   fontFamily: "Dancing Script",
   fontWeight: 400,
-  color: "white",
-  backgroundColor: "#66001A",
+  color: "#66001A",
   paddingX: 0,
   paddingY: 2,
   borderRadius: "100px",
@@ -109,7 +98,7 @@ const App: React.FC = () => {
 
   if (pageState === "dateOptions")
     return (
-      <Box sx={containerStyle}>
+      <Box>
         <Snackbar
           anchorOrigin={{ vertical: "top", horizontal: "center" }}
           open={snackbarOpen}
@@ -212,7 +201,7 @@ const App: React.FC = () => {
     );
 
   return (
-    <Box sx={containerStyle}>
+    <Box>
       <Snackbar
         anchorOrigin={{ vertical: "top", horizontal: "center" }}
         open={snackbarOpen}
@@ -226,9 +215,9 @@ const App: React.FC = () => {
           {snackbarMessage}
         </Alert>
       </Snackbar>
-      <Box display={"flex"} justifyContent={"center"}>
+      <Box mt={3} display={"flex"} justifyContent={"center"}>
         <Box>
-          <Typography sx={typographyStyle} variant="h5">
+          <Typography sx={typographyStyle} variant="h4">
             Would you like to go on a date with me?
           </Typography>
           <video
@@ -238,7 +227,7 @@ const App: React.FC = () => {
             loop
             style={{
               display: "block",
-              maxWidth: "450px",
+              maxWidth: "350px",
               height: "auto",
               margin: "auto",
               marginTop: "30px",

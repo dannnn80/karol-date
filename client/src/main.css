@@ -1,0 +1,26 @@
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #800020,
+    #922d3c,
+    #a34c58,
+    #b16874,
+    #be8590,
+    #bb848f,
+    #b9848e,
+    #b6838d,
+    #a4656f,
+    #914752,
+    #7c2935,
+    #66001a
+  );
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bolder;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box; /* Include padding and border in the width and height of all elements */
+}
