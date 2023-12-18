@@ -5,7 +5,7 @@ I want to ask Chelsea out on a date. Her favorite color is bergundy and her favo
 I used DALL-E to generate the initial images and Runway ML to convert it to a video.
 
 ## Dependencies
-- You need to create and setup a [SendGrid Email Account](https://sendgrid.com/en-us/1?adobe_mc_sdid=SDID%3D4BA48597E9BE0B3C-6F442E1059B631FE%7CMCORGID%3D32523BB96217F7B60A495CB6%40AdobeOrg%7CTS%3D1702859620) in order to be notified 
+- You need to create and setup a [SendGrid Email Account](https://sendgrid.com/en-us/1?adobe_mc_sdid=SDID%3D4BA48597E9BE0B3C-6F442E1059B631FE%7CMCORGID%3D32523BB96217F7B60A495CB6%40AdobeOrg%7CTS%3D1702859620) in order to be notified via email when your crush responds
 
 ## Installation
 
