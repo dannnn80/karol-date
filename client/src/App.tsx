@@ -78,6 +78,7 @@ const App: React.FC = () => {
         );
         setSnackbarSeverity("success");
       } else {
+
         throw new Error(
           data.message || "An error occurred while sending the email"
         );
@@ -219,7 +220,7 @@ const App: React.FC = () => {
       <Box mt={3} display={"flex"} justifyContent={"center"}>
         <Box>
           <Typography sx={typographyStyle} variant="h4">
-            Would you like to go on a date with me?
+            Will you be my valentine?
           </Typography>
           <video
             autoPlay
