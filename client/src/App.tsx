@@ -74,7 +74,7 @@ const App: React.FC = () => {
 
       if (response.ok) {
         setSnackbarMessage(
-          "Done! I was sent an email with your response. See you soon!"
+          "Done! Looking forward to spending time with you. See you soon!"
         );
         setSnackbarSeverity("success");
       } else {
@@ -178,7 +178,7 @@ const App: React.FC = () => {
               backgroundColor: "#800020",
             },
           }}
-          onClick={() => submitOption("Ikea Date + Mini-golf")}
+          onClick={() => submitOption("Downtown Adventures")}
         >
           Downtown Adventures
         </Button>
