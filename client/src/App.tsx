@@ -118,7 +118,7 @@ const App: React.FC = () => {
           sx={{ color: "#66001A", fontWeight: "bolder" }}
           variant="h4"
         >
-          Yay!!! I'm excited to go out with you!
+          Yay!!! I'm so happy you will be my valentine!
         </Typography>
         <video
           autoPlay
@@ -136,7 +136,7 @@ const App: React.FC = () => {
         >
           <source
             src={
-              "https://personal-stuff.nyc3.cdn.digitaloceanspaces.com/HappySloth.mp4"
+              "https://danny.nyc3.cdn.digitaloceanspaces.com/sohappy.mp4"
             }
             type="video/mp4"
           />
@@ -146,7 +146,7 @@ const App: React.FC = () => {
           sx={{ color: "#66001A", marginBottom: "10px" }}
           variant="h5"
         >
-          Here are some date options:
+          Here are some things we can do soon!:
         </Typography>
         <Button
           sx={{
@@ -161,9 +161,9 @@ const App: React.FC = () => {
               backgroundColor: "#800020",
             },
           }}
-          onClick={() => submitOption("Velvet Taco + Mini-golf")}
+          onClick={() => submitOption("Ikea Date + Mini-golf")}
         >
-          Velvet Taco + Mini-golf
+          Ikea Date + Mini-golf
         </Button>
         <Button
           sx={{
@@ -178,9 +178,9 @@ const App: React.FC = () => {
               backgroundColor: "#800020",
             },
           }}
-          onClick={() => submitOption("The Museum of Illusions")}
+          onClick={() => submitOption("Ikea Date + Mini-golf")}
         >
-          The Museum of Illusions
+          Downtown Adventures
         </Button>
         <Button
           sx={{
@@ -195,9 +195,9 @@ const App: React.FC = () => {
               backgroundColor: "#800020",
             },
           }}
-          onClick={() => submitOption("The Museum of Illusions")}
+          onClick={() => submitOption("Couple's Massage + Red Wine")}
         >
-          Couple's Massage + Champagne
+          Couple's Massage + Red Wine
         </Button>
       </Box>
     );
@@ -220,7 +220,7 @@ const App: React.FC = () => {
       <Box mt={3} display={"flex"} justifyContent={"center"}>
         <Box>
           <Typography sx={typographyStyle} variant="h4">
-            Will you be my valentine?
+            HI BABYY
           </Typography>
           <video
             autoPlay
@@ -238,7 +238,7 @@ const App: React.FC = () => {
           >
             <source
               src={
-                "https://personal-stuff.nyc3.cdn.digitaloceanspaces.com/SlothWithABigHeart.mp4"
+                "https://danny.nyc3.cdn.digitaloceanspaces.com/doggylove.mp4"
               }
               type="video/mp4"
             />
